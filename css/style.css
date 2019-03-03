@@ -1,0 +1,97 @@
+body{
+    background: url(back.png);          
+    height: 100%;
+    background-repeat: repeat-x;
+    background-color: #0c739f;
+}
+.all{
+
+    width: 1280px;
+}
+.everything{
+    margin-top: 10px;
+    width: 1000px;    
+    background: white;
+    margin: 0 auto;
+    height: 100%;
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+    height: 163px;
+}
+.contacts{
+    float:right;
+    font-size: 12px;    
+    text-decoration: none;
+    color: blue;    
+    margin-right: 30px;   
+}
+.contacts p{
+    margin-top: 5px;
+}
+.countries{
+    clear: right;
+    float: right;
+    margin-right: 30px;
+}
+.countries img{
+    margin-top: 40px;
+    float: right;
+    margin-left: 15px;
+}
+.countries a{
+    float: right;
+}
+.countries p{
+    font-size: 10px;
+    margin-top: 0px;
+    text-align: center;
+    margin-left: 15px;
+}
+.India{
+    margin-right: 10px;
+}
+.photo{
+    clear: both;
+    margin-top: 0px;
+}
+.menu{
+    margin-top: 0px;
+    background: #323232;
+    overflow: auto; 
+}
+
+.menu li{
+    float:left;
+}
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 25px;
+    padding: 0 20px 0 45px;  
+}
+.columns{
+    clear: both;
+}
+.first_column{
+    width: 200px;
+    float: left;
+    background: #edeef0;
+    height: 832px;
+}
+.second_column{
+    width: 200px;
+    float: right;
+    background: #edeef0;
+}
+.end{
+    clear: both;
+}
+.copyright{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    margin-top: 5px;
+}
