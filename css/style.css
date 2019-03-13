@@ -5,7 +5,7 @@ body{
     background-color: #0c739f;
 }
 .all{
-
+    margin: 0 auto;
     width: 1280px;
 }
 .everything{
@@ -61,44 +61,69 @@ body{
 .menu{
     margin-top: 0px;
     background: #323232;
-    overflow: auto; 
+    z-index: 2; 
 }
+.menu > li{
+    display: inline-block;
+    font-size: 14px;
 
-.menu li{
-    float:left;
 }
-.menu a{
+.sub-menu{
+    display: none;
+    position: absolute;
+
+}
+.sub-menu li{
+    background: #323232;
+    width: 150px;
+}
+.sub-menu a{
     color: #ffffff;
     text-decoration: none;
     line-height: 25px;
-    padding: 0 20px 0 45px;  
+    padding-left: 10px;
+}
+.has-sub{
+    position: relative;
+}
+.has-sub:hover .sub-menu{
+    display: block;
+}
+.menu li:hover{
+    background: black;
+}
+.menu > li > a{
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 25px;
+    padding: 0 30px 0 40px;  
 }
 .columns{
     clear: both;
+    display: flex;
+    justify-content: space-between;
 }
 .first_column{
     width: 200px;
-    float: left;
     background: #edeef0;
-    height: 832px;
+    line-height: 1.5;
 }
 .first_column h2{
     color: black;
     text-align: center;
     font-size: 18px;
+    font-weight: bold;
 }
 .second_column{
     width: 200px;
-    float: right;
     background: #edeef0;
+    line-height: 1.5;
 }
 .second_column h2{
     color: black;
     text-align: center;
     font-size: 18px;
-}
-.end{
-    clear: both;
+    font-weight: bold;
 }
 .copyright{
     text-align: center;
